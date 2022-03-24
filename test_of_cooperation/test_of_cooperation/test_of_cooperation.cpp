@@ -2,10 +2,13 @@
 //
 
 #include <iostream>
+#include"end_gxy_zjr.h"
 using namespace std;
 int main()
 {
+    end_gxy_zjr ganxiyan;
     cout << "this is a test";
+    ganxiyan.test_for_gxy();
     //请在主函数中，以你的名字拼音创建一个类对象，并调用输出你姓名的函数
 }
 
